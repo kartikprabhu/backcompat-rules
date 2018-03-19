@@ -42,15 +42,15 @@
         ],
         "item vcard": [
             "p-item",
-            "h-card"
+            "vcard"
         ],
         "item vevent": [
             "p-item",
-            "h-event"
+            "vevent"
         ],
         "item hproduct": [
             "p-item",
-            "h-product"
+            "hproduct"
         ]
     },
     "rels": {
