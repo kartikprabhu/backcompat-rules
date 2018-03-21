@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 import os
 import json
 import codecs
+import re
 
 import sys
 
@@ -16,6 +17,17 @@ else:
 _RULES_LOC = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../backcompat-rules')
 
 _RULES_PROPERTIES = ('properties', 'rels')
+
+def check_format(prefix, cl):
+
+    # older one does not check hyphens
+    #FORMAT_RE = r'%s-([a-z0-9]+-)?[a-z-]+'
+
+    FORMAT_RE = r'%s-([a-z0-9]+-)?[a-z]+(-[a-z]+)*'
+
+    RE = FORMAT_RE % (prefix)
+
+    return re.match(RE + '$', cl)
 
 def check_type(rules, filename):
     assert 'type' in rules, "{}: 'type' does not exist".format(filename)
@@ -33,6 +45,7 @@ def check_props(rules, filename):
             assert isinstance(values, list), "{}: '{} > {}' is not a list".format(filename, prop, key)
             for value in values:
                 assert isinstance(value, text_type), "{}: '{}' in '{} > {}' is not a string".format(filename, value, prop, key)
+
 
 def check_rules_file(filename):
     file_path = os.path.join(_RULES_LOC, filename)

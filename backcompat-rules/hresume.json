@@ -1,29 +1,29 @@
 {
     "type": [
         "h-resume"
-    ], 
+    ],
     "properties": {
-        "experience": [
-            "h-event", 
-            "p-experience"
-        ], 
-        "summary": [
-            "p-summary"
-        ], 
         "affiliation": [
-            "p-affiliation", 
-            "h-card"
-        ], 
+            "p-affiliation",
+            "vcard"
+        ],
         "contact": [
-            "h-card", 
-            "p-contact"
-        ], 
+            "p-contact",
+            "vcard"
+        ],
+        "education": [
+            "p-education",
+            "vevent"
+        ],
+        "experience": [
+            "p-experience",
+            "vevent"
+        ],
         "skill": [
             "p-skill"
-        ], 
-        "education": [
-            "h-event", 
-            "p-education"
+        ],
+        "summary": [
+            "p-summary"
         ]
     }
 }

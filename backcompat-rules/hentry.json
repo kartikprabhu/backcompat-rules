@@ -1,39 +1,39 @@
 {
     "type": [
         "h-entry"
-    ], 
+    ],
     "properties": {
+        "author": [
+            "vcard",
+            "p-author"
+        ],
         "category": [
             "p-category"
-        ], 
-        "entry-title": [
-            "p-name"
-        ], 
-        "published": [
-            "dt-published"
-        ], 
-        "latitude": [
-            "p-latitude"
-        ], 
+        ],
         "entry-content": [
             "e-content"
-        ], 
+        ],
         "entry-summary": [
             "p-summary"
-        ], 
-        "author": [
-            "p-author", 
-            "h-card"
-        ], 
+        ],
+        "entry-title": [
+            "p-name"
+        ],
         "geo": [
-            "p-geo", 
-            "h-geo"
-        ], 
-        "updated": [
-            "dt-updated"
-        ], 
+            "geo",
+            "p-geo"
+        ],
+        "latitude": [
+            "p-latitude"
+        ],
         "longitude": [
             "p-longitude"
+        ],
+        "published": [
+            "dt-published"
+        ],
+        "updated": [
+            "dt-updated"
         ]
     },
     "rels": {

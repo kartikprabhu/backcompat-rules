@@ -1,28 +1,28 @@
 {
     "type": [
         "h-adr"
-    ], 
+    ],
     "properties": {
-        "locality": [
-            "p-locality"
-        ], 
-        "region": [
-            "p-region"
-        ], 
-        "extended-address": [
-            "p-extended-address"
-        ], 
-        "post-office-box": [
-            "p-post-office-box"
-        ], 
-        "street-address": [
-            "p-street-address"
-        ], 
-        "postal-code": [
-            "p-postal-code"
-        ], 
         "country-name": [
             "p-country-name"
+        ],
+        "extended-address": [
+            "p-extended-address"
+        ],
+        "locality": [
+            "p-locality"
+        ],
+        "post-office-box": [
+            "p-post-office-box"
+        ],
+        "postal-code": [
+            "p-postal-code"
+        ],
+        "region": [
+            "p-region"
+        ],
+        "street-address": [
+            "p-street-address"
         ]
     }
 }

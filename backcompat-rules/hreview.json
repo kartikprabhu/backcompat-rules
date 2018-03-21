@@ -1,44 +1,25 @@
 {
     "type": [
         "h-review"
-    ], 
+    ],
     "properties": {
-        "rating": [
-            "p-rating"
-        ], 
-        "worst": [
-            "p-worst"
-        ], 
-        "dtreviewed": [
-            "dt-reviewed"
-        ], 
-        "reviewer": [
-            "p-author", 
-            "h-card"
-        ], 
-        "url": [
-            "p-item", 
-            "h-item", 
-            "u-url"
-        ], 
-        "photo": [
-            "p-item", 
-            "h-item", 
-            "u-photo"
-        ], 
         "best": [
             "p-best"
-        ], 
+        ],
         "description": [
             "p-description"
-        ], 
+        ],
+        "dtreviewed": [
+            "dt-reviewed"
+        ],
         "fn": [
-            "p-item", 
-            "h-item", 
+            "h-item",
+            "p-item",
             "p-name"
-        ], 
-        "summary": [
-            "p-name"
+        ],
+        "item hproduct": [
+            "hproduct",
+            "p-item"
         ],
         "item vcard": [
             "p-item",
@@ -48,9 +29,28 @@
             "p-item",
             "vevent"
         ],
-        "item hproduct": [
+        "photo": [
+            "h-item",
             "p-item",
-            "hproduct"
+            "u-photo"
+        ],
+        "rating": [
+            "p-rating"
+        ],
+        "reviewer": [
+            "p-author",
+            "vcard"
+        ],
+        "summary": [
+            "p-name"
+        ],
+        "url": [
+            "h-item",
+            "p-item",
+            "u-url"
+        ],
+        "worst": [
+            "p-worst"
         ]
     },
     "rels": {

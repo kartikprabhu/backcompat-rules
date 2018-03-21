@@ -1,35 +1,35 @@
 {
     "type": [
         "h-product"
-    ], 
+    ],
     "properties": {
-        "category": [
-            "p-category"
-        ], 
-        "price": [
-            "p-price"
-        ], 
-        "description": [
-            "p-description"
-        ], 
-        "url": [
-            "u-url"
-        ], 
-        "photo": [
-            "u-photo"
-        ], 
         "brand": [
             "p-brand"
-        ], 
-        "identifier": [
-            "u-identifier"
-        ], 
-        "review": [
-            "p-review", 
-            "h-review" 
-        ], 
+        ],
+        "category": [
+            "p-category"
+        ],
+        "description": [
+            "p-description"
+        ],
         "fn": [
             "p-name"
+        ],
+        "identifier": [
+            "u-identifier"
+        ],
+        "photo": [
+            "u-photo"
+        ],
+        "price": [
+            "p-price"
+        ],
+        "review": [
+            "hreview",
+            "p-review"
+        ],
+        "url": [
+            "u-url"
         ]
     }
 }
